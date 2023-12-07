@@ -19,8 +19,20 @@ class screenExcercise extends StatelessWidget {
            ),
            const Text("Tutorial", style:
            TextStyle(fontWeight: FontWeight.bold,
-           fontSize: 18),
+           fontSize: 18,
            ),
+           ),
+           const Text(
+            "Enter in your gallery, and choose one picture"),
+            const Divider(),
+            const Text(
+              "Your Picture:",
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              fontSize: 18,
+            ),
+          ),
+          const Text("Choose a caption for your pic")
         ],
       ),
     );
