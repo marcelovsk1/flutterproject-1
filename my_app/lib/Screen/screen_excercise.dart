@@ -5,6 +5,12 @@ class screenExcercise extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      appBar: AppBar(title: Text("Hello Wonderful World")),
+      floatingActionButton: FloatingActionButton(
+        onPressed: (){
+          print("It was clicked!");
+        }, child: Icon(Icons.add)),
+    );
   }
 }
