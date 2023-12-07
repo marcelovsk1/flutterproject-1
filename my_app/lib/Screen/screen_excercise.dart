@@ -6,14 +6,20 @@ class screenExcercise extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Hello Wonderful World")),
+      appBar: AppBar(title: const Text("Hello Wonderful World")),
       floatingActionButton: FloatingActionButton(
         onPressed: (){
           print("It was clicked!");
-        }, child: Icon(Icons.add)),
+        },
+        child: const Icon(Icons.add),
+        ),
         body: Column(children: [
           ElevatedButton(onPressed: (){},
-           child: Text("Share picture"),
+           child: const Text("Share picture"),
+           ),
+           const Text("Tutorial", style:
+           TextStyle(fontWeight: FontWeight.bold,
+           fontSize: 18),
            ),
         ],
       ),
