@@ -11,6 +11,12 @@ class screenExcercise extends StatelessWidget {
         onPressed: (){
           print("It was clicked!");
         }, child: Icon(Icons.add)),
+        body: Column(children: [
+          ElevatedButton(onPressed: (){},
+           child: Text("Share picture"),
+           ),
+        ],
+      ),
     );
   }
 }
