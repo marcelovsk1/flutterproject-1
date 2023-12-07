@@ -13,13 +13,15 @@ class screenExcercise extends StatelessWidget {
         },
         child: const Icon(Icons.add),
         ),
-        body: Column(children: [
-          ElevatedButton(onPressed: (){},
-           child: const Text("Share picture"),
+        body: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            ElevatedButton(onPressed: (){},
+            child: const Text("Share picture"),
            ),
            const Text("Tutorial", style:
-           TextStyle(fontWeight: FontWeight.bold,
-           fontSize: 18,
+            TextStyle(fontWeight: FontWeight.bold,
+            fontSize: 18,
            ),
            ),
            const Text(
