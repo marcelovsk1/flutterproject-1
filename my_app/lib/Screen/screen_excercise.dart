@@ -13,30 +13,33 @@ class screenExcercise extends StatelessWidget {
         },
         child: const Icon(Icons.add),
         ),
-        body: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            ElevatedButton(onPressed: (){},
-            child: const Text("Share picture"),
-           ),
-           const Text("Tutorial", style:
-            TextStyle(fontWeight: FontWeight.bold,
-            fontSize: 18,
-           ),
-           ),
-           const Text(
-            "Enter in your gallery, and choose one picture"),
-            const Divider(),
-            const Text(
-              "Your Picture:",
-            style: TextStyle(
-              fontWeight: FontWeight.bold,
+        body: Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              ElevatedButton(onPressed: (){},
+              child: const Text("Share picture"),
+             ),
+             const Text("Tutorial", style:
+              TextStyle(fontWeight: FontWeight.bold,
               fontSize: 18,
+             ),
+             ),
+             const Text(
+              "Enter in your gallery, and choose one picture"),
+              const Divider(),
+              const Text(
+                "Your Picture:",
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 18,
+              ),
             ),
-          ),
-          const Text("Choose a caption for your pic")
-        ],
-      ),
+            const Text("Choose a caption for your pic")
+          ],
+                ),
+        ),
     );
   }
 }
