@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart'
+import 'package:flutter/material.dart';
 
 class screenExcercise extends StatelessWidget {
   const screenExcercise({super.key});
