@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "251580808447",
+    "project_id": "events-api-484a9",
+    "storage_bucket": "events-api-484a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:251580808447:android:f118bb1b74a7c02f34e0ca",
+        "android_client_info": {
+          "package_name": "com.example.my_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCF2rle4zam7yPID9M8w5aeYXTFlE7SD4s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
